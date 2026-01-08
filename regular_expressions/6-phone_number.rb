@@ -2,4 +2,4 @@
 
 input = ARGV[0]
 
-puts input.scan(/\d{10}/)
+puts input.scan(/\A\d{10}\z/)
