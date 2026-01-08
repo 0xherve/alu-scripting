@@ -2,6 +2,4 @@
 
 input = ARGV[0]
 
-result = input.scan(/School/).join
-
-put result
+put input.scan(/School/).join
