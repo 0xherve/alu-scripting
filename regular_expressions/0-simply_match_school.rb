@@ -2,4 +2,5 @@
 
 input = ARGV[0]
 
-input =~ /School/
+if input =~ /School/
+  print "School"
