@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-/School/
+input = ARGV[0]
+
+input =~ /School/
