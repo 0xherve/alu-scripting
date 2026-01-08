@@ -2,6 +2,6 @@
 
 input = ARGV[0]
 
-if input =~ /School/
+while input =~ /School/
   print "School"
 end
