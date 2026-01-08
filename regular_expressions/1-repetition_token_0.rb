@@ -2,4 +2,4 @@
 
 input = ARGV[0]
 
-puts input.scan(/School/).join
+puts input.scan(/hbt{2,5}n/).join
